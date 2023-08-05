@@ -1,0 +1,20 @@
+git install
+create project
+
+explain tree layer arch of git (code,stage,git)
+$git init
+$git status
+$git add <file> git add . (explain the reason of usage . if new file added or modified)
+$git rm --cached <file>
+fallow the map
+$git commit -m "message" || git commit -a -m "message" (explain the reason of (-a) usage . if new file modified) (gets error if windows dosent have information like email)
+in case off error for commit $git config --global user.email "email@gmail.com"
+$git log && git log --oneline
+
+i made a misstake
+$git checkout -- <file> || git checkout --. // discared not commited changes
+$git reset <commit id> && git restore . // drop changes
+
+$git branch
+$git branch <name>
+$git switch <name>
